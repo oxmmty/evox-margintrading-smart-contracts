@@ -34,6 +34,7 @@ contract DataHub is Ownable {
         uint256 totalDepositors; // reserved
     }
 
+
     IInterestData public interestContract;
     IDepositVault public depositVault;
 
