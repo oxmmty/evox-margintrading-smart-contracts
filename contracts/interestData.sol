@@ -42,6 +42,7 @@ contract interestData {
         require(msg.sender == owner, " you cannot perform this action");
         admins[_admin] = true;
     }
+    
 
     /// @notice Revokes the Admin role of the contract
     function revokeAdminRole(address _admin) external {
